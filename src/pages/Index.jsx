@@ -10,6 +10,7 @@ import {
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Home, Info, Mail, User } from "lucide-react";
 import { NavLink } from "react-router-dom";
+import { cn } from "@/lib/utils"; // Import cn utility function
 
 const Index = () => {
   return (
